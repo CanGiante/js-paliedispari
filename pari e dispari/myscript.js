@@ -27,7 +27,6 @@ if (numScelto < 1 || numScelto > 5) {
 }
 
 
-
 //FUNZIONE PER STABILIRE SE LA SOMMA FRA IL NUMERO GENERATO DAL PC E IL NUMERO INSERITO DALL'UTENTE è PARI O DISPARI
 //ovvero per stabilire se isPari è true
 function sommaPari(numUtente) {
@@ -50,7 +49,7 @@ function sommaPari(numUtente) {
 
   }
 
-
+  console.log(isPari);
   return isPari;
 
 }
