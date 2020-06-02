@@ -1,11 +1,11 @@
 //FUNZIONE PER VERIFICARE SE UNA PAROLA è PALINDROMA
-function verificaParolaPalindroma(parola, isPalindroma) {
+function verificaParolaPalindroma(parola) {
 
-  parola = parola.toLowerCase();
+  var parola = parola.toLowerCase();
 
   console.log("verifico se " + parola + " è una parola palindroma...");
 
-  isPalindroma = true;
+  var isPalindroma = true;
 
   for (var i = 0; i < parola.length; i++) {
 
