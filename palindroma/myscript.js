@@ -3,7 +3,7 @@ function verificaParolaPalindroma(parola) {
 
   var parola = parola.toLowerCase();
 
-  console.log("verifico se " + parola + " è una parola palindroma...");
+  // console.log("verifico se " + parola + " è una parola palindroma...");
 
   var isPalindroma = true;
 
@@ -15,21 +15,21 @@ function verificaParolaPalindroma(parola) {
 
     }
 
-    console.log( "lettera num. " + (i + 1) );
-    console.log( (parola[i]) );
-    console.log( "lettera num. " + (parola.length - i) );
-    console.log( (parola[parola.length - 1 - i]) );
-    console.log(parola[i] === parola[parola.length - 1 - i]);
+    // console.log( "lettera num. " + (i + 1) );
+    // console.log( (parola[i]) );
+    // console.log( "lettera num. " + (parola.length - i) );
+    // console.log( (parola[parola.length - 1 - i]) );
+    // console.log(parola[i] === parola[parola.length - 1 - i]);
 
   }
 
   if (isPalindroma) {
 
-    console.log(parola + " è una parola palindroma.");
+    // console.log(parola + " è una parola palindroma.");
 
   } else if (!isPalindroma) {
 
-    console.log(parola + " NON è una parola palindroma.");
+    // console.log(parola + " NON è una parola palindroma.");
 
   }
 

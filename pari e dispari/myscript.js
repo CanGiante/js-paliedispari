@@ -1,8 +1,8 @@
 //GIOCO "PARI E DISPARI"
 var pariODispari = prompt("pari o dispari?");
-console.log("hai scelto " + pariODispari);
+// console.log("hai scelto " + pariODispari);
 var numScelto = parseInt(prompt("Inserisci un numero da 1 a 5"));
-console.log("hai scelto " + numScelto);
+// console.log("hai scelto " + numScelto);
 
 var numeroPari = sommaPari(numScelto);
 
@@ -32,24 +32,24 @@ if (numScelto < 1 || numScelto > 5) {
 function sommaPari(numUtente) {
 
   var numRandomPc = Math.floor(Math.random() * (5)) + 1;
-  console.log("il computer sceglie " + numRandomPc);
+  // console.log("il computer sceglie " + numRandomPc);
 
   var somma = numUtente + numRandomPc;
-  console.log("la somma è " + somma);
+  // console.log("la somma è " + somma);
 
   var isPari = somma % 2 === 0;
 
   if (isPari) {
 
-    console.log("la somma è pari");
+    // console.log("la somma è pari");
 
   } else {
 
-    console.log("la somma è dispari");
+    // console.log("la somma è dispari");
 
   }
 
-  console.log(isPari);
+  // console.log(isPari);
   return isPari;
 
 }
